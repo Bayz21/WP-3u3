@@ -6,12 +6,12 @@ def clearscrn() :
   if system() == 'Windows':
     os.system('cls')
 clearscrn()
-print("==============================")
+print("=========================================")
 print("MASS Upload Shell & Auto Deface Wordpress")
-print("-= Coded by Bayz21 =-")
-print("http://github.com/bayz21/ ")
-print("Recoded from Wp-sud")
-print("==============================")
+print("          -= Coded by Bayz21 =-          ")
+print("        http://github.com/bayz21/        ")
+print("           Recoded from Wp-sud           ")
+print("=========================================")
 
 with requests.session() as c:
 	list_domain = open("domen.txt", "r").readlines()
