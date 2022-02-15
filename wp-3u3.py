@@ -1,6 +1,8 @@
 import requests, re, sys, os
 from platform import system
 def clearscrn():
+    if system () == 'andriod':
+     os.system('clear')
     if system() == 'Linux':
         os.system('clear')
     elif system() == 'Windows':
